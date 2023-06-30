@@ -1,3 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+     list-style: none;
+}
 body{
     background-color: bisque;
+}
+nav{
+    background-color: tan;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+label.logo{
+    color: white;
+    font-size: 19px;
+    line-height: 100px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+nav ul{
+    float: right;
+    margin: 40px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 0px;
+}
+nav ul li a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1px 4px;
+    
+}
+a.active,a:hover{
+    background-color: saddlebrown;
+    transition: .7s;
+}
+.checkbtn{
+    font-size: 20px;
 }
