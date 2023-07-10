@@ -1,83 +1,145 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-body{
-    background-color: bisque;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-div.logo{
+.carousel-item {
+    height: 600px;
+    background: #A5896A;
     color: white;
-    font-size: 67px;
-    line-height: 95px;
-    font-weight: bolder;
-    margin-left: 125px;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:20px;
+  }
+  .overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.60;
+  }
+  .tittle-container {
+    padding: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    background-color: #ece6e0;
+  }
+  .h3{
+    position: relative;
+
+  }
+  .h6{
+    position: relative;
+    left: 25px;
+    
+  }
+  @media(min-width:1200px){
+    .overlay-image{
+        background-position-y: 50%;
+        background-repeat: repeat;
+        background-size: auto;
+    }
+    .container-3{
+        height: 200px;
+        position: absolute;
+    }
+  }
+  .container-2{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px ;
+    height: 970px;
+    background-color: #ece6e0;
+    border-radius: 10px;
+  }
+.gallery-tittle{
+    margin-bottom: 2rem;
+    text-align: center;
+}    
+.photo-gallery{
+    display: flex;
+    gap: 20px;
 }
-.sidebar{
-    position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: #042331;
-    transition: .5s ease;
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.sidebar ul a{
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 37px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    transition: 0.3s;
-}
-ul li:hover a{
-    padding-left: 75px;
-}
-.sidebar ul a i{
+.photo{
     margin-right: 20px;
 }
-#check{
-    display: none;
+.photo img{
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 11px;
+    margin-right: 10px;
 }
-label #btn,label #cancel{
-    position: absolute;
-    cursor: pointer;
-    background: #042331;
-    border-radius: 3px;
+@media(max-width:768px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+    .container-2{
+        height: 1800px;
+    }
+    .photo-gallery-2{
+        flex-direction: column;
+    }
 }
-label #btn{
-    left: 40px;
-    top: 25px;
-    font-size: 40px;
-    color: white;
-    padding: 6px 12px;
-    transition: all .2s;
+.gallery-tittle-2{
+    margin-bottom: 2rem;
+    text-align: center;
+}    
+.photo-gallery-2{
+    display: flex;
+    gap: 20px;
 }
-label #cancel{
-    z-index: 1111;
-    left: 50px;
-    top: 30px;
-    font-size: 30px;
-    color: #0a5275;
-    padding: 4px 9px;
-    transition: all .3s ease; 
+.photo-gallery-2 h3{
+    text-align: center;
+    margin-left: 28px;
 }
-#check:checked ~ .sidebar{
-    left: 0;
+.photo-gallery-2 h4{
+    text-align: center;
+    margin-left: 28px;
+    font-size: x-large;
 }
-#check:checked ~ label #btn{
-    left: 250px;
-    opacity: 0;
-    pointer-events: none;
+.column-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-#check:checked ~ label #cancel{
-    left: 250px;
-   
+.photo-2{
+    margin-right: 20px;
+}
+.photo-2 img{
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 11px;
+    margin-right: 10px;
+}
+.tittle-container-2 h1{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;;
+    margin-top: 30px;
+}
+.container-3{
+    background-color: #ece6e0;
+    height: 4130px;
+    padding: 40px;
 }
