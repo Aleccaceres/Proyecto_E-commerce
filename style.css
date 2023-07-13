@@ -106,9 +106,9 @@
     font-weight: bold;
 }
 /* Carousel */
-.carousel-item {
+.carousel-item{
     height: 600px;
-    background: #A5896A;
+    background: #b68e6e;
     color: white;
     position: relative;
   }
@@ -133,6 +133,7 @@
     padding: 30px;
     margin-bottom: 25px;
     display: flex;
+    justify-content: center;
     background-color: #ece6e0;
   }
   .h3{
@@ -144,20 +145,27 @@
     left: 25px;
     
   }
+  
   #carousel-2{
     padding: 20px 0px;
     margin: 20px 40px;
     
   }
+  /* CONTAINER 2 */
   .container-2{
     width: 90%;
     margin: auto;
     padding: 40px 0px;
-    height: 2225px
+    height: 2580px
   }
 .gallery-tittle{
     margin-bottom: 2rem;
     text-align: center;
+}    
+.gallery-tittle2{
+  margin-top: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
 }    
 .photo-gallery{
     display: flex;
@@ -220,6 +228,28 @@
     margin: 11px;
     margin-right: 10px;
 }
+/* SLIDE CAROUSEL */
+.wrapper{
+    background: transparent;
+}
+
+.wrapper .slide-carousel{
+    padding: 0  10px;
+    white-space: nowrap;
+    font-size: 0pc;
+    cursor: pointer;
+    overflow: hidden;
+}
+.slide-carousel img{
+    margin-left: 10px;
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 3);
+}
+.slide-carousel img:first-child{
+    margin-left: 0px;
+}
+/* CONTAINER 3 */
 .tittle-container-2 h1{
     margin: 10px;
     padding: 20px;
@@ -232,7 +262,7 @@
 
 }
 /* Footer */
-footer {background-color:lightgray;
+footer {background-color:#EDEBDE;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -258,7 +288,7 @@ footer {background-color:lightgray;
    margin-top: 10px;
    font-family:  'Merriweather', serif;
    font-size: 15px;
-   background-color: #98bea8;
+   background-color: #EDEBDE;
    text-align: center;
    width: 100%;
   }
@@ -276,7 +306,7 @@ footer {background-color:lightgray;
     color: green;
   }
   .box4{
-    background-color:lightgray;
+    background-color:#EDEBDE;
   padding-top:10px;
     font-family: Arial, Helvetica, sans-serif
   }
@@ -369,6 +399,9 @@ footer {background-color:lightgray;
     }
 }
 @media(min-width:800px){
+    .carousel-item{
+      height: 470px;
+    }
     .nav{
         display: flex;
         justify-content: space-evenly;
@@ -383,10 +416,13 @@ footer {background-color:lightgray;
         background-size: 800px
     }
      .container-2{
-        height: 710px;
+        height: 870px;
      }
   }
 @media(min-width:1200px){
+  .carousel-item{
+    height: 500px;
+  }
     .nav{
         height: 55px;
 
@@ -407,12 +443,23 @@ footer {background-color:lightgray;
         background-repeat: repeat;
     }
     .container-2{
-        height: 960px;
+        height: 1200px;
     }
 }
 @media(min-width:1850px){
+  .photo-gallery{
+    justify-content: center;
+  }
+  .container-2-color{
+    display: flex;
+    justify-content: flex-end;
+    height: 1650px;
+  }
+  .container-2{
+    margin-top: -50px;
+  }
     .container-3{
-        height: 882px;
+        height: 1100px;
     }
     .container-2{
         height: 1360px;
