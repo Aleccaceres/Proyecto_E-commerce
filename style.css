@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fraunces:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Fraunces:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Open+Sans:ital,wght@1,300&display=swap');
@@ -307,4 +308,315 @@ footer {background-color:lightgray;
     .container-2{
         height: 1360px;
     }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado-img{
+    background-image: url(multimedia/headerimg.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.encabezado-img h1{
+    font-size: 40px;
+    text-shadow: 1px 1px grey;
+}
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+    top: 410px;
+}
+.buscar input{
+    width: 168px;
+    height: 28px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(92,128,107,255);
+    width: 40px;
+    height: 35px;
+    line-height: 37px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pregunta-buscador{
+    color: white;
+    position: absolute;
+    top: 380px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.icono-usuario{
+    position: absolute;
+    top: 420px;
+    right: 100px;
+    font-size: 23px;
+}
+
+.icono-shopping{
+    position: absolute;
+    top: 422px;
+    right: 65px;
+    color: rgba(92,128,107,255);
+    font-size: 22px;
+}
+
+
+.nav{
+    
+    width: 100%;
+    height: 50px;
+    background-color: rgba(92,128,107,255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu{
+    display: flex;       
+    font-size: 16px;
+    line-height: 5px;                                                                                                                        ;
+}
+.menu li{
+    list-style: none;
+    margin: 8px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Carousel */
+.carousel-item {
+    height: 600px;
+    background: #A5896A;
+    color: white;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:20px;
+  }
+  .overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.60;
+  }
+  .tittle-container {
+    padding: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    background-color: #ece6e0;
+  }
+  .h3{
+    position: relative;
+
+  }
+  .h6{
+    position: relative;
+    left: 25px;
+    
+  }
+  #carousel-2{
+    padding: 20px 0px;
+    margin: 20px 40px;
+    
+  }
+  .container-2{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+    height: 2225px
+  }
+.gallery-tittle{
+    margin-bottom: 2rem;
+    text-align: center;
+}    
+.photo-gallery{
+    display: flex;
+    gap: 20px;
+}
+.photo-gallery h5{
+    display: block;
+    font-weight: 600;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo{
+    margin-right: 20px;
+}
+.photo img{
+    width: 100%;
+    height: 30%;
+    border-radius: px;
+    object-fit: cover;
+    margin: 11px;
+    margin-right: 10px;
+}
+
+.gallery-tittle-2{
+    margin-bottom: 2rem;
+    text-align: center;
+}    
+.photo-gallery-2{
+    display: flex;
+    gap: 20px;
+}
+.photo-gallery-2 h3{
+    text-align: center;
+    margin-left: 28px;
+}
+.photo-gallery-2 h4{
+    text-align: center;
+    margin-left: 28px;
+    font-size: x-large;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo-2{
+    margin-right: 20px;
+}
+.photo-2 img{
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 11px;
+    margin-right: 10px;
+}
+.tittle-container-2 h1{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.container-3{
+    background-color: #ece6e0;
+    padding: 30px 30px;
+
+}
+.footer{
+    padding: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-width: 2px;
+}
+footer {background-color:lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+   }
+@media(max-width:500px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+    .photo-gallery-2{
+        flex-direction: column;
+    }
+}
+@media(min-width:800px){
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .overlay-image{
+        background-position-y: 50%;
+        background-repeat: repeat;
+        background-size: auto;
+    }
+    .encabezado-img{
+        background-position: 0px 0.1px ;
+        background-size: 800px
+    }
+     .container-2{
+        height: 710px;
+     }
+  }
+@media(min-width:1200px){
+    .nav{
+        height: 55px;
+
+    }
+    .menu li{
+        font-size: x-large;
+        padding: 1px;
+    }
+    .buscar input{
+        width: 300px;
+        height: 30px;
+    }
+    .container-3{
+        height: 720px;
+    }
+    .encabezado-img{
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .container-2{
+        height: 960px;
+    }
+}
+@media(min-width:1850px){
+    .container-3{
+        height: 882px;
+    }
+    .container-2{
+        height: 1360px;
+    }
+>>>>>>> 019514ae3196877825d694469cfadb14e0575bb5
 }
